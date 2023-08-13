@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * main - Entry point
  *
@@ -5,17 +6,17 @@
  */
 int main(void)
 {
-	char i;
+	char boo;
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (boo = 'a'; boo <= 'z'; boo++)
 	{
-	if (i != 'e' && i != 'q')
+	if (boo != 'e' && boo != 'q')
 
-	putchar(i);
+		putchar(boo);
 
 	}
 
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
