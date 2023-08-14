@@ -10,9 +10,9 @@ int main(void)
 	char i;
 
 	for (boo = 0; boo < 10; boo++)
-	printf(i);
+	printf(boo);
 
-	for (i = 'a'; i <= f; i++)
+	for (i = 'a'; i <= 'f'; i++)
 	printf(i);
 
 	printf('\n');
