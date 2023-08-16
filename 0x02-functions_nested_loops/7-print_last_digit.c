@@ -8,18 +8,17 @@
  *
  * Return: last digit as int value.
  */
-int print_last_digit(int c)
+int print_last_digit(int n)
 {
-	int c;
+	int a;
 
-	if (c < 0)
-	{
-		c = -c;
-	b= c %10;
-	}
-	if(b < 0)
-		c= -c;
-	_putchar(c + '0');
-	return (c);
+	if (n < 0)
+	
+		n = -n;
+	a = n % 10;
+	
+	if(a < 0)
+		a= -a;
+	_putchar(a + '0');
+	return (a);
 }
-i
